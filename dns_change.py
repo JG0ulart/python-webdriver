@@ -24,7 +24,7 @@ def dnschanger(ip_gerencia, primary_dns, secondary_dns):
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--disable-dev-shm-usage')
 
-    browser = webdriver.Chrome(executable_path='/var/dev-kinney-project/python/python-webdriver/chromedriver', chrome_options=chrome_options)
+    browser = webdriver.Chrome(executable_path='/var/kinney-project/python/python-webdriver/chromedriver', chrome_options=chrome_options)
     # browser.set_window_size(1920, 1080)
     browser.get(f'https://{ip_gerencia}:80')
 

@@ -30,7 +30,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--disable-dev-shm-usage')
 
-    browser = webdriver.Chrome(executable_path='/var/dev-kinney-project/python/python-webdriver/chromedriver', chrome_options=chrome_options)
+    browser = webdriver.Chrome(executable_path='/var/kinney-project/python/python-webdriver/chromedriver', chrome_options=chrome_options)
     browser.get(f'https://{ipgerencia}:80')
     titulo1 = browser.title
     print(titulo1)

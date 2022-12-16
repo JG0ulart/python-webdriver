@@ -20,7 +20,7 @@ chrome_options.add_argument("--start-maximized")
 chrome_options.add_argument('--disable-gpu')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
-browser = webdriver.Chrome(executable_path='/var/dev-kinney-project/python/python-webdriver/chromedriver', chrome_options=chrome_options)
+browser = webdriver.Chrome(executable_path='/var/kinney-project/python/python-webdriver/chromedriver', chrome_options=chrome_options)
 browser.get(f'https://facebook.com')
 print(browser.title)
 browser.save_screenshot('image.png')
