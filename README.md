@@ -1,1 +1,2 @@
 This project has the purpose of make automation with Selenium and Webdriver on a Linux server machine. It makes changes to the Huawei ONT model, such as changing password, DNS and others.
+Im use Flask as API for receive and return datas in a system make with PHP (Laravel).
