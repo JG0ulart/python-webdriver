@@ -76,7 +76,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
                 apply2g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
                 apply2g.click()
 
-                browser.save_screenshot(str(randint(1,999))+'image2g.png')
+                ####browser.save_screenshot(str(randint(1,999))+'image2g.png')
                 
                 sleep(5)
                 print('deu tudo certo até aqui 2g.')
@@ -100,7 +100,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
                 apply5g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
                 apply5g.click()
 
-                browser.save_screenshot(str(randint(1,999))+'image5G.png')
+                ####browser.save_screenshot(str(randint(1,999))+'image5G.png')
                 
                 sleep(5)
                 print('deu tudo certo até aqui 5g.')
@@ -140,7 +140,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
             apply2g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
             apply2g.click()
 
-            browser.save_screenshot(str(randint(1,999))+'image2g.png')
+            ####browser.save_screenshot(str(randint(1,999))+'image2g.png')
             
             sleep(5)
             print('deu tudo certo até aqui 2g.')
@@ -164,7 +164,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
             apply5g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
             apply5g.click()
 
-            browser.save_screenshot(str(randint(1,999))+'image5G.png')
+            ####browser.save_screenshot(str(randint(1,999))+'image5G.png')
             
             sleep(5)
             print('deu tudo certo até aqui 5g.')
@@ -208,7 +208,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
                 apply2g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
                 apply2g.click()
 
-                browser.save_screenshot(str(randint(1,999))+'image2g.png')
+                ####browser.save_screenshot(str(randint(1,999))+'image2g.png')
                 
                 sleep(5)
                 print('deu tudo certo até aqui 2g.')
@@ -232,7 +232,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
                 apply5g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
                 apply5g.click()
 
-                browser.save_screenshot(str(randint(1,999))+'image5G.png')
+                ####browser.save_screenshot(str(randint(1,999))+'image5G.png')
                 
                 sleep(5)
                 print('deu tudo certo até aqui 5g.')
@@ -271,7 +271,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
                 apply2g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
                 apply2g.click()
 
-                browser.save_screenshot(str(randint(1,999))+'image2g.png')
+                ####browser.save_screenshot(str(randint(1,999))+'image2g.png')
                 
                 sleep(5)
                 print('deu tudo certo até aqui 2g.')
@@ -295,7 +295,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
                 apply5g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
                 apply5g.click()
 
-                browser.save_screenshot(str(randint(1,999))+'image5G.png')
+                ####browser.save_screenshot(str(randint(1,999))+'image5G.png')
                 
                 sleep(5)
                 print('deu tudo certo até aqui 5g.')
@@ -337,7 +337,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
                     apply2g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
                     apply2g.click()
 
-                    browser.save_screenshot(str(randint(1,999))+'image2g.png')
+                    ####browser.save_screenshot(str(randint(1,999))+'image2g.png')
                     
                     sleep(5)
                     print('deu tudo certo até aqui 2g.')
@@ -376,7 +376,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
                     apply2g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
                     apply2g.click()
 
-                    browser.save_screenshot(str(randint(1,999))+'image2g.png')
+                    ####browser.save_screenshot(str(randint(1,999))+'image2g.png')
                     
                     sleep(5)
                     print('deu tudo certo até aqui 2g.')
@@ -400,7 +400,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
                     apply5g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
                     apply5g.click()
 
-                    browser.save_screenshot(str(randint(1,999))+'image5G.png')
+                    ####browser.save_screenshot(str(randint(1,999))+'image5G.png')
                     
                     sleep(5)
                     print('deu tudo certo até aqui 5g.')
@@ -436,7 +436,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
                     apply2g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
                     apply2g.click()
 
-                    browser.save_screenshot(str(randint(1,999))+'image2g.png')
+                    ####browser.save_screenshot(str(randint(1,999))+'image2g.png')
                     
                     sleep(5)
                     print('deu tudo certo até aqui 2g.')
@@ -460,7 +460,7 @@ def changer(ipgerencia, nome2g, senha2g, separar_rede):
                     apply5g = browser.find_element_by_xpath('//*[@id="btnApplySubmit"]')
                     apply5g.click()
 
-                    browser.save_screenshot(str(randint(1,999))+'image5G.png')
+                    ###browser.save_screenshot(str(randint(1,999))+'image5G.png')
                     
                     sleep(5)
                     print('deu tudo certo até aqui 5g.')
