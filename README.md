@@ -1,0 +1,1 @@
+This project has the purpose of make automation with Selenium and Webdriver on a Linux server machine. It makes changes to the Huawei ONT model, such as changing password, DNS and others.
