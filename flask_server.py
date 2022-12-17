@@ -1,6 +1,9 @@
 from flask import Flask, request, redirect, url_for, jsonify
 from wifi_change import changer
 from flask_cors import CORS
+import logging
+
+logging.basicConfig(filename="logs.log", format="%(levelname)s:%(name)s:%(message)s")
 
 app = Flask(__name__)
 CORS(app)
@@ -8,6 +11,7 @@ CORS(app)
 
 @app.route('/', methods=['POST'])
 def received_api():
+    app.logger.info("From API requests")
     request_data = request.get_json()
     wifi_name = request_data['wifi_name']
     wifi_password = request_data['wifi_password']
